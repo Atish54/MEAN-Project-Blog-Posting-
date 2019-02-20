@@ -1,0 +1,22 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node public/logger.js",
+    "start-watch": "nodemon public/logger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "mssql": "^4.3.2",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
